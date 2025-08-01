@@ -1,0 +1,5 @@
+config.php
+fakturobot.sqlite
+tmp/
+vendor/
+composer.lock

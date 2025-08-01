@@ -1,0 +1,22 @@
+<?php
+// IMAP – mailbox for reading
+define('IMAP_HOST', '{imap.example.com:993/imap/ssl}INBOX');
+define('IMAP_USER', 'your-email@example.com');
+define('IMAP_PASS', 'your-password');
+
+// SMTP – mail account to forwarding purposes
+define('SMTP_HOST', 'smtp.example.com');
+define('SMTP_PORT', 465); 
+define('SMTP_USER', 'your-email@example.com');
+define('SMTP_PASS', 'your-password');
+
+// Invoice recipment
+define('FORWARD_TO', 'accounting@example.com');
+
+// OpenAI
+define('OPENAI_API_KEY', 'your-openai-api-key'); // Wstaw swój klucz API
+define('OPENAI_MODEL', 'gpt-4o-mini'); 
+
+// Paths
+define('TMP_DIR', __DIR__ . '/tmp'); // katalog na tymczasowe pliki
+define('DB_FILE', __DIR__ . '/fakturobot.sqlite'); // baza danych
